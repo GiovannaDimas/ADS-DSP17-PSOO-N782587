@@ -1,0 +1,14 @@
+C:\Users\i5\source\repos\Validar_RA\bin\Debug\net6.0\Validar_RA.exe
+C:\Users\i5\source\repos\Validar_RA\bin\Debug\net6.0\Validar_RA.deps.json
+C:\Users\i5\source\repos\Validar_RA\bin\Debug\net6.0\Validar_RA.runtimeconfig.json
+C:\Users\i5\source\repos\Validar_RA\bin\Debug\net6.0\Validar_RA.dll
+C:\Users\i5\source\repos\Validar_RA\bin\Debug\net6.0\Validar_RA.pdb
+C:\Users\i5\source\repos\Validar_RA\obj\Debug\net6.0\Validar_RA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\i5\source\repos\Validar_RA\obj\Debug\net6.0\Validar_RA.AssemblyInfoInputs.cache
+C:\Users\i5\source\repos\Validar_RA\obj\Debug\net6.0\Validar_RA.AssemblyInfo.cs
+C:\Users\i5\source\repos\Validar_RA\obj\Debug\net6.0\Validar_RA.csproj.CoreCompileInputs.cache
+C:\Users\i5\source\repos\Validar_RA\obj\Debug\net6.0\Validar_RA.dll
+C:\Users\i5\source\repos\Validar_RA\obj\Debug\net6.0\refint\Validar_RA.dll
+C:\Users\i5\source\repos\Validar_RA\obj\Debug\net6.0\Validar_RA.pdb
+C:\Users\i5\source\repos\Validar_RA\obj\Debug\net6.0\Validar_RA.genruntimeconfig.cache
+C:\Users\i5\source\repos\Validar_RA\obj\Debug\net6.0\ref\Validar_RA.dll
