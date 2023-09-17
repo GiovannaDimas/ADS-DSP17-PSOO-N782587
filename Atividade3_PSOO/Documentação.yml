@@ -1,0 +1,51 @@
+Neste código, temos três classes principais: `Passageiro`, `Voo` e `CompanhiaAerea`.
+
+1. Passageiro:
+
+   - Propriedades:
+     - Nome: Nome do passageiro.
+     - NumeroPassaporte: Número do passaporte do passageiro.
+
+   - Métodos:
+     - ReservarVoo(string destino): Este método permite que o passageiro reserve um voo para um destino específico.
+     Ele imprime uma mensagem informando que o voo foi reservado.
+
+     - CancelarReserva(): Este método permite que o passageiro cancele sua reserva.
+     Ele imprime uma mensagem informando que a reserva foi cancelada.
+
+2. Voo:
+
+   - Propriedades:
+     - NumeroVoo: Número identificador do voo.
+     - Destino: Destino do voo.
+     - Reservado: Uma propriedade privada que indica se o voo está reservado ou não.
+   
+   - Construtor:
+     - Voo(string numeroVoo, string destino): O construtor da classe que inicializa o número do voo, o destino e define que o voo não está inicialmente reservado.
+   
+   - Métodos:
+     - Disponibilidade(): Este método verifica se o voo está disponível (não reservado) e retorna `true` se estiver disponível, ou `false` caso contrário.
+     - Reservar(): Este método permite reservar o voo se ele estiver disponível. Ele atualiza o estado do voo para "reservado" e
+     imprime uma mensagem correspondente.
+     - CancelarReserva(): Este método permite cancelar a reserva do voo. Ele atualiza o estado do voo para "não reservado" e
+     imprime uma mensagem correspondente.
+
+3. CompanhiaAerea:
+
+   - Propriedades:
+     - listaDeVoos: Uma lista que mantém uma coleção de objetos da classe `Voo`, representando os voos operados pela companhia aérea.
+   
+   - Métodos:
+     - AdicionarVoo(string numeroVoo, string destino): Este método permite adicionar um novo voo à lista de voos operados pela companhia aérea.
+     Ele cria uma instância de `Voo`, adiciona à lista e retorna esse novo voo.
+     - RemoverVoo(Voo voo): Este método permite remover um voo da lista de voos operados pela companhia aérea.
+     - ListarVoos(): Este método retorna a lista de voos operados pela companhia aérea.
+
+4. Program:
+   - A classe principal que contém o método `Main`.
+   - No método `Main`, são criados objetos das classes `Passageiro`, `CompanhiaAerea` e `Voo`. Em seguida, são realizadas a
+   reserva e o cancelamento de reservas de voos para os passageiros, utilizando os métodos das classes `Passageiro` e `Voo`,
+   e a adição de voos à lista de voos operados pela companhia aérea, utilizando os métodos da classe `CompanhiaAerea`.
+
+O código modela um sistema simples de reservas de voos, onde passageiros podem reservar voos operados por uma companhia aérea,
+e a companhia aérea pode adicionar e listar os voos que ela opera.
